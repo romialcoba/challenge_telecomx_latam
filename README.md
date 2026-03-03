@@ -65,7 +65,9 @@ Mejora de la Experiencia con Fibra Óptica: Investigar las causas de la alta eva
 Optimización de Planes y Costos: Revisar la estructura de precios para planes con altos cargos mensuales y considerar ofertas más competitivas o bundles flexibles.
 Revisión del Proceso de Pago: Analizar la experiencia de los usuarios de Electronic check para identificar y resolver posibles fricciones.
 Marketing y Ofertas Segmentadas: Diseñar campañas personalizadas para segmentos demográficos vulnerables (Senior Citizens, clientes sin Partner/Dependents) que aborden sus necesidades específicas.
+
 🛠️ Tecnologías Utilizadas
+
 Python
 Pandas: Para manipulación y análisis de datos.
 Matplotlib: Para la creación de visualizaciones.
