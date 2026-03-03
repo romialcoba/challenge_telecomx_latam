@@ -25,7 +25,8 @@ Corrección de Inconsistencias en Churn: La columna Churn contenía cadenas vac�
 3.1 Análisis Descriptivo General
 customer_SeniorCitizen: Aproximadamente el 16% de los clientes son personas mayores.
 customer_tenure: La duración promedio de permanencia es de 32 meses, con una alta variabilidad. Los clientes más nuevos (25% con menos de 9 meses) son un grupo clave.
-account_Charges.Monthly: El cargo mensual promedio es de  64.76,conunrangosignificativoqueindicadiversospaquetesdeservicios.∗∗∗‘accountCharges.Total‘:∗∗Eltotalgastadoporclientepromedia 2283.30, también con gran dispersión.
+account_Charges.Monthly: El cargo mensual promedio es de  64.76,con un rango significativo que indica diversos paquetes de servicios.
+∗∗∗‘accountCharges.Total‘:∗∗ El total gastado por cliente promedia 2283.30, también con gran dispersión.
 Churn: El 26.6% de los clientes ha abandonado el servicio, mientras que el 73.4% ha permanecido.
 customer_gender: Distribución equitativa entre géneros.
 Servicios: Observación de clientes sin ciertos servicios (teléfono o internet), lo que puede influir en el Churn.
