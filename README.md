@@ -32,6 +32,7 @@ customer_gender: Distribución equitativa entre géneros.
 Servicios: Observación de clientes sin ciertos servicios (teléfono o internet), lo que puede influir en el Churn.
 account_Contract: Predominan los contratos mes a mes, seguidos por los de dos y un año.
 account_PaymentMethod: El cheque electrónico es el método de pago más común.
+
 3.2 Distribución de Churn
 De los 7043 clientes, 5174 permanecen y 1869 han dejado la empresa, confirmando un problema de Churn significativo.
 
