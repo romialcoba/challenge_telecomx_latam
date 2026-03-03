@@ -3,12 +3,15 @@
 Proyecto TelecomXLATAM: Análisis de Churn en Clientes de Telecomunicaciones
 
 📄 Descripción del Proyecto
+
 Este proyecto tiene como objetivo principal identificar los factores clave que influyen en la decisión de los clientes de una empresa de telecomunicaciones de abandonar el servicio (Churn). A través de un análisis exploratorio de datos (EDA) detallado, buscamos comprender los patrones de comportamiento, las características demográficas y el impacto de los servicios contratados, el tipo de contrato y los métodos de pago en la tasa de Churn. El análisis busca proporcionar insights accionables y recomendaciones estratégicas para mejorar la retención de clientes.
 
 🚀 Extracción de Datos
+
 Los datos fueron obtenidos directamente desde una API pública en formato JSON y cargados en un DataFrame de Pandas para su posterior manipulación y análisis. La URL de origen es: https://raw.githubusercontent.com/ingridcristh/challenge2-data-science-LATAM/refs/heads/main/TelecomX_Data.json
 
 🔧 Limpieza y Tratamiento de Datos
+
 El proceso de preparación de datos fue crucial para asegurar la calidad y fiabilidad del análisis. Los pasos clave incluyeron:
 
 Aplanamiento de Columnas Anidadas: Las columnas que contenían diccionarios anidados (customer, phone, internet, account) fueron aplanadas, extrayendo sus claves como nuevas columnas individuales en el DataFrame principal.
@@ -18,6 +21,7 @@ Identificación de Filas Duplicadas: Se verificó que no había filas completame
 Corrección de Inconsistencias en Churn: La columna Churn contenía cadenas vacías (''). Las filas con estos valores inconsistentes fueron eliminadas, reduciendo el número total de entradas de 7267 a 7043.
 
 📊 Análisis Exploratorio de Datos (EDA)
+
 3.1 Análisis Descriptivo General
 customer_SeniorCitizen: Aproximadamente el 16% de los clientes son personas mayores.
 customer_tenure: La duración promedio de permanencia es de 32 meses, con una alta variabilidad. Los clientes más nuevos (25% con menos de 9 meses) son un grupo clave.
@@ -46,6 +50,7 @@ account_Charges.Monthly: Los clientes que abandonan suelen tener cargos mensuale
 account_Charges.Total: Los clientes que se van tienen un total de cargos acumulados más bajo, lo cual es consistente con su menor permanencia.
 
 💡 Conclusiones e Insights
+
 El análisis revela que los clientes con mayor riesgo de Churn son:
 
 Clientes nuevos y con contratos mensuales: Son los más vulnerables a la evasión.
@@ -54,6 +59,7 @@ Clientes con altos cargos mensuales y que pagan con cheque electrónico: Insatis
 Demografía específica: Personas mayores y clientes sin pareja o dependientes.
 
 📝 Recomendaciones Estratégicas
+
 Programas de Retención para Clientes Nuevos: Implementar programas de bienvenida y seguimiento proactivo durante los primeros meses, ofreciendo incentivos para contratos más largos.
 Mejora de la Experiencia con Fibra Óptica: Investigar las causas de la alta evasión en este segmento (calidad, soporte) y promover activamente los servicios de valor añadido.
 Optimización de Planes y Costos: Revisar la estructura de precios para planes con altos cargos mensuales y considerar ofertas más competitivas o bundles flexibles.
