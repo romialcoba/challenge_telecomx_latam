@@ -1,6 +1,7 @@
 # challenge_telecomx_latam
 
 Proyecto TelecomXLATAM: Análisis de Churn en Clientes de Telecomunicaciones
+
 📄 Descripción del Proyecto
 Este proyecto tiene como objetivo principal identificar los factores clave que influyen en la decisión de los clientes de una empresa de telecomunicaciones de abandonar el servicio (Churn). A través de un análisis exploratorio de datos (EDA) detallado, buscamos comprender los patrones de comportamiento, las características demográficas y el impacto de los servicios contratados, el tipo de contrato y los métodos de pago en la tasa de Churn. El análisis busca proporcionar insights accionables y recomendaciones estratégicas para mejorar la retención de clientes.
 
@@ -15,6 +16,7 @@ Conversión y Limpieza de account_Charges.Total: Se identificó que esta columna
 Verificación de Valores Ausentes: Se confirmó que, después de las transformaciones, no existían valores nulos en ninguna columna.
 Identificación de Filas Duplicadas: Se verificó que no había filas completamente duplicadas en el DataFrame.
 Corrección de Inconsistencias en Churn: La columna Churn contenía cadenas vacías (''). Las filas con estos valores inconsistentes fueron eliminadas, reduciendo el número total de entradas de 7267 a 7043.
+
 📊 Análisis Exploratorio de Datos (EDA)
 3.1 Análisis Descriptivo General
 customer_SeniorCitizen: Aproximadamente el 16% de los clientes son personas mayores.
@@ -42,6 +44,7 @@ PaymentMethod: El 'Electronic check' es el método de pago con la mayor tasa de 
 customer_tenure: Los clientes que se van (Churn='Yes') tienen una permanencia mucho menor.
 account_Charges.Monthly: Los clientes que abandonan suelen tener cargos mensuales más altos.
 account_Charges.Total: Los clientes que se van tienen un total de cargos acumulados más bajo, lo cual es consistente con su menor permanencia.
+
 💡 Conclusiones e Insights
 El análisis revela que los clientes con mayor riesgo de Churn son:
 
@@ -49,6 +52,7 @@ Clientes nuevos y con contratos mensuales: Son los más vulnerables a la evasió
 Usuarios de Fibra Óptica sin servicios adicionales: La calidad percibida del servicio de fibra óptica y la falta de complementos de seguridad/soporte son puntos de fricción.
 Clientes con altos cargos mensuales y que pagan con cheque electrónico: Insatisfacción con la relación calidad-precio y posibles problemas con el método de pago.
 Demografía específica: Personas mayores y clientes sin pareja o dependientes.
+
 📝 Recomendaciones Estratégicas
 Programas de Retención para Clientes Nuevos: Implementar programas de bienvenida y seguimiento proactivo durante los primeros meses, ofreciendo incentivos para contratos más largos.
 Mejora de la Experiencia con Fibra Óptica: Investigar las causas de la alta evasión en este segmento (calidad, soporte) y promover activamente los servicios de valor añadido.
